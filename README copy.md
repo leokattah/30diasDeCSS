@@ -1,4 +1,4 @@
-<!-- ## 🚀 30diasDeCSS 🚀
+## 🚀 30diasDeCSS 🚀
  
  Fala Devs, beleza? 🖖
 
@@ -574,4 +574,4 @@ Gostou da ideia?
 * *[::before](https://www.w3schools.com/cssref/sel_before.asp)* 
 * *[::after](https://www.w3schools.com/cssref/sel_after.asp)*
 * *[animations](https://www.w3schools.com/css/css3_animations.asp)*
- -->
+
