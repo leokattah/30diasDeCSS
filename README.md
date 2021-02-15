@@ -54,10 +54,6 @@ Gostou da ideia?
 * [Dia 30 - Fogos de artificio](#id30)
 
 
-
-
-
-
 <h1 align= "center">
   Desafio dia 01 - Ícone de mídia social em camadas <a name="id01"></a>
 </h1>
