@@ -1,4 +1,4 @@
-<p position = "center"> 🚀 30diasDeCSS 🚀 </p>
+<p align = "center"> 🚀 30diasDeCSS 🚀 </p>
 
  Fala Devs, beleza? 🖖
 
