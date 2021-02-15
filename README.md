@@ -22,7 +22,7 @@ Gostou da ideia?
 [DarkCode](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
 
 
-* [Dia 01 - Ícone de mídia social em camadas](./assets/Dia1.gif)
+* [Dia 01 - Ícone de mídia social em camadas](../assets/Dia1.gif)
 * [Dia 02 - Loader animado](#id02)
 * [Dia 03 - Mudança de cor de texto quando entra em outra div](#id03)
 * [Dia 04 - Botão com efeito](#id04)
