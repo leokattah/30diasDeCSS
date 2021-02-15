@@ -1,94 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+}
 
+section {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #ff4f8b, #dff1ff);
+}
 
+section::before {
+  content: '';
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 50%;
+  z-index: 1;
+  backdrop-filter: blur(5px);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+section .color {
+  position: absolute;
+  filter: blur(150px);
+}
 
-/* 
-body
-{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+section .color:nth-child(1) {
+  background: #ff359b;
+  width: 600px;
+  height: 600px;
+  top: -350px;
 }
-ul
-{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    display: flex;
+
+section .color:nth-child(2) {
+  background: #00d2ff;
+  width: 500px;
+  height: 500px;
+  bottom: -150px;
+  left: 100;
 }
-ul li 
-{
-    position: relative;
-    list-style: none;
-    width: 60px;
-    height: 60px;
-    margin: 0 30px;
-    transform: rotate(-30deg) skew(25deg);
-    background: #ccc;
+
+section .color:nth-child(3) {
+  background: #fffd87;
+  width: 300px;
+  height: 300px;
+  bottom: 50px;
+  right: 0;
 }
-ul li span
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    transition: 0.5s;
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 30px !important;
+
+ul {
+  position: relative;
+  display: flex;
+  z-index: 2;
 }
-ul li:hover span
-{
-    box-shadow: -1px 1px 1px rgba(0,0,0,.1);
+
+ul li {
+  position: relative;
+  list-style: none;
+  margin: 10px;
 }
-ul li:hover span:nth-child(5)
-{
-    transform: translate(40px, -40px);
-    opacity: 1;
+
+ul li a {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2em;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  transition: 00.5s;
+  overflow: hidden;
 }
-ul li:hover span:nth-child(4)
-{
-    transform: translate(30px, -30px);
-    opacity: 0.8;
+
+ul li a:hover {
+  transform: translateY(-20px);
 }
-ul li:hover span:nth-child(3)
-{
-    transform: translate(20px, -20px);
-    opacity: 0.6;
+
+ul li a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  transform: skewX(45deg) translateX(150px);
+  transition: 0.5s;
 }
-ul li:hover span:nth-child(2)
-{
-    transform: translate(10px, -10px);
-    opacity: 0.4;
+
+ul li a:hover::before {
+    transform: skewX(45deg) translateX(-150px);
 }
-ul li:hover span:nth-child(1)
-{
-    transform: translate(0,0);
-    opacity: .2;
-}
-ul li:nth-child(1) span
-{
-    background: #3b5999;
-}
-ul li:nth-child(2) span
-{
-    background: #55acee;
-}
-ul li:nth-child(3) span
-{
-    background: #dd4b39;
-}
-ul li:nth-child(4) span
-{
-    background: #0077b5;
-}
-ul li:nth-child(5) span
-{
-    background: #e4405f;
-} */
