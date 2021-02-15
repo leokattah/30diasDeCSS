@@ -55,7 +55,7 @@ Gostou da ideia?
 
 
 
-
+<!-- 
 
 
 <h1 align= "center">
@@ -74,4 +74,4 @@ Gostou da ideia?
 * *[Opacidade / transparência do CSS](https://www.w3schools.com/css/css_image_transparency.asp)*
 * *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
-
+ -->
