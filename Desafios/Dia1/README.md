@@ -1,5 +1,5 @@
 <h1 align= "center">
-  Desafio dia 01 - Ícone de mídia social em camadas <a name="id01"></a>
+  Desafio Dia 01 - Ícone de mídia social em camadas <a name="id01"></a>
 </h1>
 
 
