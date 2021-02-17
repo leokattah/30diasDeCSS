@@ -4,7 +4,7 @@
 
 
 <p align = "center">
-  <img src = ""
+  <img src = "https://photos.google.com/share/AF1QipNqaSDulmlQEYTRaUHeMLLd2UcqZHXtyvjkq9tXAekbDlxJgBoe5vouUYhAYc_ccA/photo/AF1QipNcyfealbQS2qnhm_J2nQNg1zmDQcP-3Ig8lcPi?key=X2ttR3oyM083c0UzZzJ3RTlqXzMwMDdFa25NTlpB"
 </P>
 
 ##### O que eu aprendi
