@@ -8,7 +8,9 @@
 </P> -->
 
 <!-- <embed src="./30diasDeCSS/assets/Dia1.wmv" autostart="true" height="300" width="300" /> -->
+<p align = "center">
 <object width="425" height="344" data="https://youtu.be/AZh2a7c5uZE"></object>
+</p>
 
 
 
