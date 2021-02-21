@@ -1,5 +1,5 @@
 <h1 align= "center">
- * Dia 03 - Mudança de cor de texto quando entra em outra div <a name="id03"></a>
+ Dia 03 - Mudança de cor de texto quando entra em outra div <a name="id03"></a>
 </h1>
 
 <p align = "center">
