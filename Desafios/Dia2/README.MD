@@ -3,9 +3,7 @@
 </h1>
 
 
-<p align = "center">
-  <img src = "https://lh3.googleusercontent.com/pw/ACtC-3f9xgeDUxEAhPg2hzw0dY4wUEDKtX4oIuY-AhkNKVKnmlR6mIxBB47ERCxeoZUq-M8iVcefyVcY-3_AgIytx23oBqydNS6QtaRh9jan_qPBwKbV0PddqVzE3ym4c66AAxGuOusuNEVjnF9PHTS40-Wi=w1440-h810-no?authuser=0"
-</P>
+![](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia2.gif)
 
 ##### O que eu aprendi
 
