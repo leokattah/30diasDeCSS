@@ -7,7 +7,7 @@ Dia 03 - Mudança de cor de texto quando entra em outra div <a name="id03"></a>
 </p>
 
 
-![Dia3](../master/30_dias_De_CSS/assets/dia3.gif)
+![Dia3](../main/30_dias_De_CSS/assets/dia3.gif)
 
 ##### O que eu aprendi
 
