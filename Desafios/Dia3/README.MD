@@ -7,7 +7,7 @@ Dia 03 - Mudança de cor de texto quando entra em outra div <a name="id03"></a>
 </p>
 
 
-![Dia3](./assets/dia3.gif)
+![Dia3](../dia3.gif)
 
 ##### O que eu aprendi
 
