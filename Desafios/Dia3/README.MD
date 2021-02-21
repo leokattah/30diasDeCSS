@@ -11,7 +11,7 @@
 
 
 <p align="center">
-  <img src="https://lh3.googleusercontent.com/bIxZArVA7dFU9w6DdTp0qZCmEKLp9t8Cdptf32_fZiY-27FW1Z8HRp_Kbjb8L2JW1T-OKOt1H1MZSulPVufcTqhdxsEWVjP8FKFtHa6-zGYCyDaPM1lE9GINtlHrehiqgfEPOLA2CxX_4hjy5BIeXhpyJphEPFONQ-rrGlnM_FaxA9c60iEtucpikbQLFSKoNdfz2CLhKkkkmNEcAs_E3jL7w=w1440-h810-no?authuser=0">
+  <img src="https://photos.app.goo.gl/BU2tp3eJh4487Brn8">
 </p>
 
 ##### O que eu aprendi
