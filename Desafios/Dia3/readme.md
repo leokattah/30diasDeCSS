@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src = https://photos.app.goo.gl/MAE72iLXVkgPB1QSA
+  <img src = "https://lh3.googleusercontent.com/pw/ACtC-3cycOkZBGqlcewq4WJv730iaym-OAFMTaZGnDxWbNZscorU40WBz5QgCR4cjP_P0aZDS2aA4HSOzKQBR5Z2rJWkzHF8Qr0nDQmWXm6Z6X9sSEQu5gq6YtWBFuGJbZ0EH1VMIAIiQTvgBe8FgH9vX5WS=w1440-h810-no?authuser=0"
 </p>
 
 ##### O que eu aprendi
