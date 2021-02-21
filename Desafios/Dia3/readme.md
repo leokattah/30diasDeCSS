@@ -4,7 +4,7 @@
 
 
 <p align = "center">
-  <img src = "https://lh3.googleusercontent.com/pw/ACtC-3eeUf20SXrBzB_bPQg0Bzc5odmQoVRbswohpS-3xONHVaTKVqBsUBHSlsy54kL39GLaEGyjPLz_bosCE8V2mQ1tI0pXBW_ug89F-DSwXI0QR3RsrSJ5ZM2DeOwSY5VbVzCFdO_FaXEYAfH0V9qV-o8F=w1440-h810-no?authuser=0"
+  <img src = "https://lh3.googleusercontent.com/pw/ACtC-3cFJOyb1VCl8lHs1YxtS3a8GsK_GhkFgeIa_0V4Wuw4oAbY3vk9Y9ovzZLYrSOe8K7caeb1SGWld4U_hppqVxtJ2GG4U_Zvs3Jmi3VkAGfAWZ9-6t9BATnds6h31hMh7eDc1cJdZpQQChW9tpyKR3FC=w1440-h810-no?authuser=0"
 </P>
 
 ##### O que eu aprendi
