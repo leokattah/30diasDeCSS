@@ -8,6 +8,6 @@
 
 ##### O que eu aprendi
 
-* *[Propriedade CSS transform](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
-* *[Propriedade CSS Animation](https://www.w3schools.com/css/css3_animations.asp)*
-* *[CSS @keyframes](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
+[Propriedade CSS transform](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
+[Propriedade CSS Animation](https://www.w3schools.com/css/css3_animations.asp)*
+[CSS @keyframes](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
