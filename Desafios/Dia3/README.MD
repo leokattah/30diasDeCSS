@@ -7,6 +7,8 @@
 <p align = "center" width="400px">
   <img src = "https://lh3.googleusercontent.com/pw/ACtC-3dYPcDhYZQ6WWBg0zWofq_0piw36WvZ9JlmHfe9LMOMMefcEe4870jzuSddu9hWvihs8BCkIBuOFjLrr3E7--bD0WGc_cY516ydWp_F0ssNMelWrBfP4E0RogDIJvz0RfOQzalcj02pTKzvStV7AfVa=w1440-h810-no?authuser=0"
 </P>
+ 
+ ![](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia3.gif)
 
 ##### O que eu aprendi
 
