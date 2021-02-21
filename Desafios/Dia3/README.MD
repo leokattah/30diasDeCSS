@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://bit.ly/3seS6UT">
+  <img src="https://photos.google.com/share/AF1QipNqaSDulmlQEYTRaUHeMLLd2UcqZHXtyvjkq9tXAekbDlxJgBoe5vouUYhAYc_ccA/photo/AF1QipN-bdgsRdKjrQVNAn95LEzb5comjXAxlo30gmGD?key=X2ttR3oyM083c0UzZzJ3RTlqXzMwMDdFa25NTlpB">
 </p>
 
 ##### O que eu aprendi
