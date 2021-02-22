@@ -25,7 +25,7 @@ Gostou da ideia?
 * [Dia 01 - Ícone de mídia social em camadas](https://lh3.googleusercontent.com/GpVTFC2ixkU-SPsJjHYmM9igadl9NS6i4O8dnvjKwzM9_nKW71HMD6Gb0EZuJdAVlPdXeYyE3zMTS6xMmCCpFO8cMpHCkIemVbNo0AdflesrBSTMfQLPYZ0bi8aiOiDtknUzYewTtg0U5rcFt1qIuh4lJX8_QmgZc7HrfRzIVC22u5zZXFzMYCKawX1__e7gCLzQIG2RjUXkHP33VJwhqhovOv9rMhbNKHBQodGyPm85R9n0kPYq1bag_1dPhUoC17Mo-3pKTgNpr4my5ypkNIIO9fy74CwKVBC1-qvgP0JvWptkPa0LHjSnolpppvFx7y2GjpjOBnV9xtD0753_Xhoxj--V695ytLmvmWZJTMYPxrhfWSg57O5iglnn_XaMFb14b-vv5lr0EF5rPw64qJef_cbR9Y8diX7Xed67ebsUhilkr0iO_4nlEO0ihn0kMHKGwI5Jyd5t0Sj0HRzG5xjY2H2UBdUNaafnYBM_lrf0eRd59rb8vMu5xW7P_SoI5qFwmNPGLFFLuoCK4fCU5nsopT8XpfKmq7aTgZNwotSGWYWox9KyOKqJEImhPNxWvNcxhihXoT5UA3UI_Ttq2WMRx2dUNHlHHMGR6fBitsXnWkILajDsfrlojTJVbS2YurMKejxg-iYh9u8Ugvsiym9ntwe8YlKNQ9nkRUsMLc2PY9Ibisr_eNOYbaC8=w1302-h680-no?authuser=0)
 * [Dia 02 - Loader animado](https://lh3.googleusercontent.com/pw/ACtC-3f9xgeDUxEAhPg2hzw0dY4wUEDKtX4oIuY-AhkNKVKnmlR6mIxBB47ERCxeoZUq-M8iVcefyVcY-3_AgIytx23oBqydNS6QtaRh9jan_qPBwKbV0PddqVzE3ym4c66AAxGuOusuNEVjnF9PHTS40-Wi=w1440-h810-no?authuser=0)
 * [Dia 03 - Mudança de cor de texto quando entra em outra div](https://lh3.googleusercontent.com/pw/ACtC-3cFJOyb1VCl8lHs1YxtS3a8GsK_GhkFgeIa_0V4Wuw4oAbY3vk9Y9ovzZLYrSOe8K7caeb1SGWld4U_hppqVxtJ2GG4U_Zvs3Jmi3VkAGfAWZ9-6t9BATnds6h31hMh7eDc1cJdZpQQChW9tpyKR3FC=w1440-h810-no?authuser=0)
-* [Dia 04 - Botão com efeito](#id04)
+* [c](#id04)
 * [Dia 05 - Efeito pulsar](#id05)
 * [Dia 06 - Efeito lightning text](#id06)
 * [Dia 07 - Preloader animado](#id07)  
