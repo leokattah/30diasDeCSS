@@ -3,7 +3,7 @@
  Dia 04 - Botão com efeito <a name="id04"></a>
 </h1>
 
- ![](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia3.gif)
+ ![](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia4.gif)
 
  ##### O que eu aprendi
 
