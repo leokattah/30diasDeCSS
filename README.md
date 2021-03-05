@@ -26,7 +26,7 @@ Gostou da ideia?
 * [Dia 02 - Loader animado](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia2.gif)
 * [Dia 03 - Mudança de cor de texto quando entra em outra div](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia3.gif)
 * [Dia 4 - Dia 04 - Botão com efeito](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia4.gif)
-* [Dia 05 - Efeito pulsar](#id05)
+* [Dia 05 - Efeito pulsar](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia5.gif)
 * [Dia 06 - Efeito lightning text](#id06)
 * [Dia 07 - Preloader animado](#id07)  
 * [Dia 08 - Coração batendo](#id08)
