@@ -1,12 +1,17 @@
 body{
-  text-align: center;
-  margin-top: 0px;
-  position: relative;;
+  display: grid;
+  justify-content: center;
   width: 100%;
   height: 100vh;
-  display: flex;
-  justify-content:space-around ;
   align-items: center;
+  flex-wrap: wrap;
+  }
+
+.grid{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+justify-content: center;
+align-items: center;
 
 }
 
@@ -16,6 +21,8 @@ body{
   position: relative;
   width: 80px;
   height: 80px;
+  margin: 100px ;
+  display: inline-block;
 }
 .lds-default div {
   position: absolute;
@@ -101,6 +108,8 @@ body{
   position: relative;
   width: 80px;
   height: 80px;
+  margin: 100px ;
+  display: inline-block;
 }
 .lds-roller div {
   animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
@@ -187,6 +196,8 @@ body{
   position: relative;
   width: 80px;
   height: 80px;
+  margin: 100px ;
+  display: inline-block;
 }
 .lds-ring div {
   box-sizing: border-box;
@@ -223,6 +234,9 @@ body{
   display: inline-block;
   width: 80px;
   height: 80px;
+  margin:100px;
+  margin: 100px ;
+  display: inline-block;
 }
 .lds-dual-ring:after {
   content: " ";
@@ -251,6 +265,8 @@ body{
   position: relative;
   width: 80px;
   height: 80px;
+  margin: 100px ;
+  display: inline-block;
 }
 .lds-spinner div {
   transform-origin: 40px 40px;
@@ -330,6 +346,8 @@ body{
   position: relative;
   width: 80px;
   height: 80px;
+  margin: 100px ;
+  display: inline-block;
 }
 .lds-ripple div {
   position: absolute;
