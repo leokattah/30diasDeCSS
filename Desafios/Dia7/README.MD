@@ -9,4 +9,4 @@
 
 * *[tranformação 2D ou 3D de um elemento](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
 * *[Distribuição de colunas no display grid](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)*
-* 
+
