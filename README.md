@@ -20,6 +20,7 @@ Gostou da ideia?
 * *[Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)*
 * *[Creative Creations](https://www.youtube.com/channel/UCOKmVksbzoKJKmtu7rlEM1A)*
 * *[DarkCode](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)*
+* *[CSS-Tricks](https://css-tricks.com/)
 <br>
 
 * [Dia 01 - Ícone de mídia social em camadas](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia1.gif)
@@ -29,7 +30,7 @@ Gostou da ideia?
 * [Dia 05 - Efeito pulsar](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia5.gif)
 * [Dia 06 - Efeito lightning text](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia6.gif)
 * [Dia 07 - Loaders variados](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia7.gif) 
-* [Dia 08 - Coração batendo](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia8.gif)
+* [Dia 08 - Efeito digitação](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia8.gif)
 * [Dia 09 - Pendulo de Newton](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia9.gif)
 * [Dia 10 - Animação texto alternando](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia10.gif)
 * [Dia 11 - Botão com efeito hover](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia11.gif)
