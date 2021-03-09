@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --bg: #1c1717;
+}
+body {
+  min-height: 100vh;
+  background: var(--bg);
+  display: grid;
+  place-items: center;
+}
+@property --a {
+  initial-value: 0deg;
+  inherits: false;
+  syntax: '<angle>';
+}
+@property --h {
+  initial-value: 0;
+  inherits: false;
+  syntax: '<number>';
+}
+@property --c {
+  initial-value: 0;
+  inherits: false;
+  syntax: '<integer>';
+}
+.charger {
+  height: 40vmin;
+  width: 40vmin;
+  font-family: monospace;
+  font-weight: bold;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 50%;
+  position: relative;
+  display: grid;
+  place-items: center;
+  background: #404040;
+  counter-reset: charge var(--c);
+  -webkit-animation: charge 60s forwards steps(100);
+          animation: charge 60s forwards steps(100);
+}
+.charger:after {
+  content: counter(charge) '%';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 10vmin;
+  transform: translate(-50%, -50%);
+}
+.charger:before {
+  --charge: hsl(var(--h, 0), 80%, 50%);
+  -webkit-animation: load 2s 30 ease-in-out forwards, loaded 1s 60s infinite linear;
+          animation: load 2s 30 ease-in-out forwards, loaded 1s 60s infinite linear;
+  content: '';
+  position: absolute;
+  top: -2vmin;
+  right: -2vmin;
+  left: -2vmin;
+  bottom: -2vmin;
+  background: conic-gradient(var(--charge) var(--a), transparent calc(var(--a) + 0.5deg));
+  border-radius: 50%;
+  z-index: -1;
+}
+@-webkit-keyframes load {
+  0%, 10% {
+    --a: 0deg;
+    --h: 0;
+  }
+  100% {
+    --a: 360deg;
+    --h: 100;
+  }
+}
+@keyframes load {
+  0%, 10% {
+    --a: 0deg;
+    --h: 0;
+  }
+  100% {
+    --a: 360deg;
+    --h: 100;
+  }
+}
+@-webkit-keyframes loaded {
+  to {
+    --h: 360;
+  }
+}
+@keyframes loaded {
+  to {
+    --h: 360;
+  }
+}
+@-webkit-keyframes charge {
+  to {
+    --c: 100;
+  }
+}
+@keyframes charge {
+  to {
+    --c: 100;
+  }
+}
