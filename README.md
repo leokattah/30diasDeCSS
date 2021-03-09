@@ -32,7 +32,7 @@ Gostou da ideia?
 * [Dia 07 - Loaders variados](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia7.gif) 
 * [Dia 08 - Efeito digitação](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia8.gif)
 * [Dia 09 - Indicador de carregamento](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia9.gif)
-* [Dia 10 - Animação texto alternando](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia10.gif)
+* [Dia 10 -  Dia 10 - Efeito de legenda em imagens](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia10.gif)
 * [Dia 11 - Botão com efeito hover](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia11.gif)
 * [Dia 12 - Efeito de preenchimento ao passar o mouse](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia12.gif)
 * [Dia 13 - Loading com efeito](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia13.gif)
