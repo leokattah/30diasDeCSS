@@ -8,7 +8,6 @@
  ##### O que eu aprendi
 
 * *[background-image](https://www.w3schools.com/cssref/pr_background-image.asp)*
-* *[background-image:linear-gradient](https://www.w3schools.com/cssref/pr_background-image.asp)*
 * *[CSS Transition](https://www.w3schools.com/css/css3_transitions.asp)*
 
 
