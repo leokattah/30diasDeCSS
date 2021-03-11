@@ -13,7 +13,7 @@ body{
 }
 .wrapper{
   display: grid;
-  margin: 200px 90px auto;
+  margin: 300px 90px auto;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
