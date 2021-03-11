@@ -1,6 +1,6 @@
 
 <h1 align= "center">
- Dia 11 - Dia 11 - Formulário de login <a name="id11"></a>
+ Dia 11 - Formulário de login <a name="id11"></a>
 </h1>
 
  ![](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia11.gif)
