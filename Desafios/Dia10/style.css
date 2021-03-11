@@ -12,13 +12,13 @@ html, body {
 	height: auto
 }
 body {
-background: rgba(255,255,255,0.5);
+background: #ffffff;
 }
 .title {
 	display: block;
 	width: 100%;
 	text-align: center;
-	color: #b3b9bf;
+	color: #292d31;
 	font-size: 30px;
 	margin: 60px 0;
 }
@@ -31,6 +31,8 @@ background: rgba(255,255,255,0.5);
 	margin: 15px auto;
 	display: block;
 	margin-bottom: 50px;
+
+
 }
 #box:after {
 	display: block;
@@ -42,6 +44,7 @@ background: rgba(255,255,255,0.5);
 	display: block;
 	width: 880px;
 	list-style: none;
+
 }
 .estilizacao li {
 	position: relative;
@@ -51,6 +54,7 @@ background: rgba(255,255,255,0.5);
 	height: 300px;
 	margin:20px;
 	cursor: pointer;
+	
 }
 .estilizacao li img {
 	width: 100%;
@@ -59,6 +63,7 @@ background: rgba(255,255,255,0.5);
 	z-index: 999;
 	position: absolute;
 	transition:.5s;
+	
 }
 .conteudo {
 	display: block;
