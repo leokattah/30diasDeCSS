@@ -6,10 +6,11 @@
   font-family: 'Poppins', sans-serif;
 }
 html,body{
-  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
   width: 100%;
-  place-items: center;
   background: #ffffff;
   /* background: linear-gradient(-135deg, #c850c0, #4158d0); */
 }
