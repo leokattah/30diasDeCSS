@@ -35,7 +35,7 @@ Gostou da ideia?
 * [Dia 10 -  Dia 10 - Efeito de legenda em imagens](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia10.gif)
 * [Dia 11 - Formulário de login](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia11.gif)
 * [Dia 12 - Cards com animação flip](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia12.gif)
-* [Dia 13 - Loading com efeito](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia13.gif)
+* [Dia 13 - Cards com borda gradiente](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia13.gif)
 * [Dia 14 - Fundo de texto animado](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia14.gif)
 * [Dia 15 - Texto flutuante](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia15.gif)
 * [Dia 16 - Botão com efeito](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia16.gif)
