@@ -1,6 +1,6 @@
 
 <h1 align= "center">
- Dia 13 - Cards com borda gradiente <a name="id1"></a>
+ Dia 13 - Cards com borda gradiente <a name="id13"></a>
 </h1>
 
  ![](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia13.gif)

@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: consolas;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(https://lh3.googleusercontent.com/pw/ACtC-3eHHpAVQ6nLZ3tUrp6o9py7eefPsjZm_T9TSMy0wvYT5h8ysnjdoxp-4QFhMqASkpnsUC_stYGu4NlgUrQXiy4OWR5rcRv_lWfJ5uN4E9xNcIo_-taCZv_abOJXxr3rerycRsWeq3-n9UpT5Hl3Fds_=w1272-h833-no?authuser=0);
+  background-size: cover;
+
+}
+
+.container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  flex-wrap: wrap;
+}
+
+.container .box{
+position: relative;
+width: 320px;
+height: 400px;
+color: #7e7e7e;
+background-color: rgba(255,255,255,0.1);
+box-shadow: 0 05px 15px rgba(0,0,0,0.5);
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 20px 30px;
+transition: 0.5s;
+}
+
+.container .box:hover{
+  transform: translateY(-20px);
+  }
+
+  .container .box::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.container .box::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(30px);
+  }
+  
+.container .box span{
+  position: absolute;
+  top: 6px;
+  bottom: 6px;
+  left: 6px;
+  right: 6px;
+  z-index: 2;
+}
+
+.container .box span::before{
+content: "";
+position: absolute;
+top:0;
+bottom: 0;
+width: 50%;
+height: 100%;
+background: rgba(255,255,255,0.1);
+pointer-events: none;
+}
+
+.container .box .content{
+  position: relative;
+  z-index: 10;
+  padding: 20px 40px;
+}
+
+.container .box .content h2{
+font-size: 2em;
+color:#7e7e7e;
+margin-bottom: 10px;
+}
+
+.container .box .content p{
+  font-size: 1.1em;
+  color: #7e7e7e;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+  }
+
+  .container .box .content a{
+ display: inline-block;
+ font-size: 1.1em;
+ color: #111111;
+ padding: 10px;
+ text-decoration: none;
+ font-weight: 700;
+     }
