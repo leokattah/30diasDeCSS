@@ -10,7 +10,6 @@
 * *[ -webkit-appearance](http://gohom.win/ManualHom/Coding/W3School/W3Schools_Offline_2015/www.w3schools.com/cssref/css3_pr_appearance.html)*
 * *[background-color](https://www.w3schools.com/cssref/pr_background-color.asp)*
 * *[transform: scale](https://www.w3schools.com/css/css3_2dtransforms.asp)*
-* 
 
 
 
