@@ -41,7 +41,7 @@ Gostou da ideia?
 * [Dia 16 - Efeito de mudança de cor ](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia16.gif)
 * [Dia 17 - Cartão com slider animado](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia17.gif)
 * [Dia 18 - Texto com efeito gradiente](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia18.gif)
-* [Dia 19 - Efeitos de animação de fundo de partículas](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia19.gif)
+* [Dia 19 - Website com Efeito Paralaxe](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia19.gif)
 * [Dia 20 - Botão com efeito](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia20.gif)
 * [Dia 21 - Esferas quicando](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia21.gif)
 * [Dia 22 - Icones com efeito](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia22.gif)
