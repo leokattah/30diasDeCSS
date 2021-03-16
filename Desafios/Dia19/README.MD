@@ -6,9 +6,12 @@
  ![](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia19.gif)
 
  ##### O que eu aprendi
-
-* *[-webkit-background-clip](https://www.w3schools.com/cssref/css3_pr_background-clip.asp)*
-* *[-webkit-text-fill-color: transparent](https://www.w3docs.com/learn-css/text-fill-color.html)*
+* *[background-attachment](https://www.w3schools.com/cssref/pr_background-attachment.asp)*
+* *[background-position](https://www.w3schools.com/cssref/pr_background-position.asp)*
+* *[-webkit-background-size](https://www.w3schools.com/cssref/css3_pr_background-size.asp)*
+* *[-moz-background-size](https://www.w3schools.com/cssref/css3_pr_background-size.asp)*
+* *[background-size](https://www.w3schools.com/cssref/css3_pr_background-size.asp)*
+* *[-o-background-size](https://www.w3schools.com/cssref/css3_pr_background-size.asp)*
 
 
 
