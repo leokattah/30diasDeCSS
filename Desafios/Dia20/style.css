@@ -22,7 +22,7 @@ body {
   padding: 2.5rem;
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.6);
-  border-radius: 0.625rem;
+  border-radius: 0.925rem;
 }
 
 .box h2 {
@@ -83,3 +83,60 @@ body {
 .box input[type="submit"]:hover {
   background-color: #1cb1f5;
 }
+
+form .content{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-around;
+}
+form .content .checkbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form .content input{
+  width: 15px;
+  height: 15px;
+  background:#1cb1f5;
+}
+form .content label{
+  color: #ffffff;
+  user-select: none;
+  padding-left: 5px;
+}
+form .content .pass-link{
+  color: #1cb1f5;
+}
+
+form .field input[type="submit"]{
+  color: #fff;
+  border: none;
+  padding-left: 0;
+  margin-top: -10px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  transition: all 0.3s ease;
+}
+form .field input[type="submit"]:active{
+  transform: scale(0.95);
+}
+form .signup-link{
+  color: #fff;
+
+  text-align: center;
+}
+form .pass-link a,
+form .signup-link a{
+  color: #1cb1f5;
+  text-decoration: none;
+}
+form .pass-link a:hover,
+form .signup-link a:hover{
+  text-decoration: underline;
+}
+

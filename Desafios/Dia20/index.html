@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="box">
-    <h2>Login</h2>
+    <h2 style="letter-spacing: .2rem;" >Login</h2>
     <form>
       <div class="inputBox">
         <input type="email" name="email" required onkeyup="this.setAttribute('value', this.value);" value="">
@@ -18,8 +18,23 @@
         <input type="password" name="password" required value="" onkeyup="this.setAttribute('value', this.value);" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
         <label>Password</label>
       </div>
-      <input type="submit" name="sign-in" value="Sign In">
+
+      <div class="content">
+        <div class="checkbox">
+          <input type="checkbox" id="remember-me">
+          <label for="remember-me"> Lembrar </label>
+        </div>
+<div class="pass-link">
+<a href="#">Esqueceu a senha?</a></div>
+</div>
+      <input type="submit" name="sign-in" value="Sign In"  style="  margin-top: 20px;">
+      
+  <div class="signup-link" style="  margin-top: 40px;">
+    Not a member? <a href="#">Signup now</a></div>
     </form>
   </div>
+
+ 
+
 </body>
 </html>
