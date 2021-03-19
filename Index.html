@@ -3,515 +3,190 @@
 <title>Desafio 30 dias de CSS</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="icon" href="./w3images/css.png" >
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 </head>
 
 <body>
+<nav class="navbar">
+  <input type="checkbox" id="check">
+  <label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+  </label>
+  <label class="logo">
+    <img src="img/leokattah.png" " alt=" leokattah">
+  </label>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <!-- <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</a> -->
-    <img src="./w3images/caricaturaTransparente.png" alt="LOGO"
-    width="3%"
-    >
-
-
-    <!-- Right-sided navbar links -->
-    <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">SOBRE</a>
-      <a href="#team" class="w3-bar-item w3-button"></i> DESAFIOS</a>
-    </div>
-
-    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-</div>
-
-<!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <ul class="items">
+   <li> <a href="#about" class="active">SOBRE</a></li>
+   <li> <a href="#chalenges" class="active"></i> DESAFIOS</a></li>
+  </ul>
 </nav>
 
 <!-- Header with full-height image -->
-<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home"> 
-  <img src="./w3images/computador.jpg" alt="Imagem sobre programação" width= 100% class="bgimg-1 w3-display-container w3-grayscale-min">
-  <div class="w3-display-left w3-text-white" style="padding:48px">
-    <span class="w3-jumbo w3-hide-small">Desafio 30 dias de CSS</span><p>
-    <span class="w3-large">Comece hoje e aprenda mais. </span>
-    <p>
-      <!-- <a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off"> Bôra codar</a> -->
-    </p>
-  </div> 
-  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-    <a target = "_blank" href = "https://www.instagram.com/leonardokattah/"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
-    <a target="_blank" href="https://www.linkedin.com/in/leonardo-kattah-55059a20/"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
-    <a target="_blank"  href="https://github.com/leokattah"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-  </div>
-</header>
-
-<!-- About Section -->
-<div class="w3-container" style="padding:128px 16px" id="about" >
-  <h3 class="w3-center">Estudo e prática</h3>
-  <p class="w3-center w3-large"> 
-    30 dias de CSS3, é um desafio que visa ajudar o dev a melhorar as habilidades<br>
-    de codificação fazendo mini projetos diarios utilizando HTML5 e CSS3</p>
-  <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter">
-      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-      <p class="w3-large">Responsividade</p>
-      <p>Fique a vontade para visualizar o conteúdo no seu celular ou em qualquer outra tela.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Paixão</p>
-      <p>Como é bom ser desafiado e conseguir o resultado esperado depois de tudo.</p>
-    </div>
-    <div class="w3-quarter" >
-      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Design</p>
-      <p>Agradeço aos participantes do W3schools por agilizarem a vida dos desenvolvedores com seus frameworks.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Créditos</p>
-      <p>
-        <a> Os Créditos vão para a desenvolvedora </a>
-        <a href="https://github.com/MilenaCarecho/30diasDeCSS" target="_blank" >Milena Caracho</a>, criadora do desafio.
-      </p>
+<section class="introduction">
+  <div class="center">
+    <div class="block">
+      <h1>Desafio 30 dias de CSS</h1>
+      <p>Comece hoje e aprenda mais.</p>
     </div>
   </div>
-</div>
+  <ul class="social">
+    <li><a target = "a_blank" href="https://www.instagram.com/leonardokattah/"><img src="img/instagram.svg" alt=""></a></li>
+    <li><a target = "a_blank" href="https://www.linkedin.com/in/leonardo-kattah-55059a20/"><img src="img/linkedin.svg" alt=""></a></li>
+    <li><a target = "a_blank" href="https://github.com/leokattah"><img src="img/github.svg" alt=""></a></li>
+  </ul>
+</section>
 
-<!-- Team Section -->
-<div class="w3-container" style="padding:128px " id="team" >
-  <h3 class="w3-center">30 DIAS DE CSS</h3>
-  <p class="w3-center w3-large" ></p>
-  <div class="w3-row-padding " style="margin-top:64px" >
-    <div class="w3-col l3 m6 w3-margin-bottom" >
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)"style="box-sizing: content-box;" >
-        <img src ="./assets/Dia1.gif" alt="Dia1" style="border-radius: 15px;" style="object-fit: contain" style="max-width: 100%" width="100%" height="200px"  > 
-        <div class="w3-container" style="min-height: 280px;" style="max-height: 280px;" >
-          <h3>Dia 01 - Ícone de mídia social em camadas</h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          Tranformação 2D ou 3D de um elemento / transparência do CSS;<br>
-          Hover; <br>
-          Nth-child (); 
-        </p>
-          <a   target="_blank"  href="https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia1"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom" >
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia2.gif" alt="dia2" style="border-radius: 15px;" style="object-fit: contain" style="max-width: 100%" width="100%" height="200px"  >
-        <div class="w3-container" style="min-height: 280px;" >
-          <h3 >Dia 02 - Loader Animado </h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          Propriedade CSS transform.<br>
-          Propriedade CSS Animation.<br>
-          CSS @keyframes.
-        </p>
-          <a   target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia2"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom" >
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia3.gif" alt="Dia3" style="border-radius: 15px;" style="object-fit: contain" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3>Dia 03 - Mudança de cor de texto quando entra em outra div</h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          Propriedade CSS transform.<br>
-          Propriedade CSS Animation.<br>
-          CSS @keyframes.
-        </p>
-          <a   target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia3"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom" >
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia4.gif" alt="Dia4"  style="border-radius: 15px;" style="object-fit: contain" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3>Dia 04 - Botão com efeito</h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          Propriedade CSS transform.<br>   
-          CSS @keyframes.
-        </p>
-          <a target="_blank" href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia4"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom" >
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia5.gif" alt="Dia 5" style="border-radius: 15px;" style="object-fit: contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3>Dia 05 - Efeito pulsar</h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          Imagem SVG.<br>
-          Propriedade CSS Animation.<br>
-          CSS @keyframes.
-        </p>
-          <a   target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia5"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia6.gif" alt="Dia 6" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3>Dia 06 - Efeito lightning text</h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          Propriedade box-shadow.<br>
-          Propriedade text-shadow.<br>
-          CSS @keyframes.<br>
-          <a   target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia6"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia7.gif" alt="Dia 7" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3>Dia 07 - Loaders variados</h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          Distribuição de colunas no display grid.<br>
-          Tranformação 2D ou 3D de um elemento.<br>
-          <a   target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia7"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia8.gif" alt="Dia 8" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3>Dia 08 - Efeito digitação</h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-            CSS @keyframes.<br>
-          <a   target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia8"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia9.gif" alt="Dia 9" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3>Dia 09 - Indicador de carregamento</h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-            CSS @property.<br>
-          <a   target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia9"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia10.gif" alt="Dia 10" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3>Dia 10 - Efeito de legenda em imagens</h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          background-image.<br>
-          CSS Transition.<br>
-          <a   target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia10"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia11.gif" alt="Dia 11" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3>Dia 11 - Formulário de login</h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          background: linear-gradient.<br>
-          CSS Transition.<br>
-          tranformação 2D ou 3D de um elemento<br>
-          <a   target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia11"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
+<section class="study"  id="about">
+  <div class="study-info">
+    <h1>Estudo e prática</h1>
+    <p>30 dias de CSS3, é um desafio que visa ajudar o desenvolvedor a melhorar as habilidades
+    de codificação fazendo mini projetos diários utilizando HTML5 e CSS3</p>
+    </div>  
+  </section>
 
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia12.gif" alt="Dia 12" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3> Dia 12 - Cards com animação flip</h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          flex-direction.<br>
-          CSS Transition.<br>
-          <a   target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia12"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
 
-    
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia13.gif" alt="Dia 13" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3> Dia 13 - Cards com borda gradiente</h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          background: linear-gradient.<br>
-          filter: blur.<br>
-          <a target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia13"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
+	<section class="quality">
+		<ul class="quality-items">
+			<li>
+				<img src="img/pc.svg" alt="computador">
+      <h2>Responsividade</h2>
+      <p>Agradeço ao desenvolvedor <a href="https://github.com/damakron" target="_blank">Daniel Damasio</a> pela contribuição com a responsividade da página</p>
+    </li>
+			<li>
+				<img src="img/hearth.svg" alt="coração">
+				<h2>Paixão</h2>
+				<p>Como é bom ser desafiado e conseguir o resultado esperado depois de tudo.</p>
+      </li>
+			<li>
+				<img src="img/diamond.svg" alt="diamante">
+				<h2>Design</h2>
+        <p>Fique a vontade para visualizar o conteúdo no seu celular ou em qualquer outra tela.</p>
+      </li>
+			<li>
+				<img src="img/gear.svg" alt="engrenagem">
+				<h2>Créditos</h2>
+				<p>Os Créditos vão para a desenvolvedora <a href="https://github.com/MilenaCarecho/30diasDeCSS" target="_blank">Milena Caracho</a>, criadora do desafio.</p>
+			</li>
+		</ul>
+</section>
 
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia14.gif" alt="Dia 14" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3> Dia 14 - Cards transparentes </h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          background-image.<br>
-          background-color.<br>
-          <a target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia14"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
-    
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia15.gif" alt="Dia 15" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3> Dia 15 - Efeito de botão brilhante </h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          -webkit-appearance.<br>
-          background-color.<br>
-          transform: scale.<br>
-          <a target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia15"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
 
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia16.gif" alt="Dia 16" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3> Dia 16 - Efeito de mudança de cor </h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          mix-blend-mode.<br>
-          CSS animation.<br>
-          <a target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia16"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
-    
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)" >
-        <img src="./assets/dia17.gif" alt="Dia 17"  style="border-radius: 15px;" style="object-fit:contain;"   style="max-width: 100%" width="100%" height="200px">
-        <div class="w3-container" style="min-height: 280px;">
-          <h3> Dia 17 - Cartão com slider animado </h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          mix-blend-mode.<br>
-          CSS animation.<br>
-          <a target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia17"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
+<section class="desafios" id="chalenges">
+  <header class="title">
+    <h1>Desafios</h1>
+    <p>Conteúdo aprendido com os 30 dias de CSS. Todos desafios estarâo disponiveis em meu repositório.</p>
+  </header>
 
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia18.gif" alt="Dia 18" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3> Dia 18 - Texto com efeito gradiente </h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          -webkit-background-clip.<br>
-          -webkit-text-fill-color: transparent.<br>
-          <a target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia18"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
+  <article class="row">
+    <ul class="cards">
 
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia19.gif" alt="Dia 19" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3> Dia 19 - Website com Efeito Paralaxe </h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          background-attachment.<br>
-          background-position.<br>
-          <a target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia19"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
+      <!--Padrao de card, so alterar as informações e copiar e colcar os "li"-->
+      <!--trocar gif por jpg-->>
+      <li>
+        <header class="desafio-imagem">
+          <img src="assets/dia1.gif" alt="Desafio 1">
+        </header>
+        <article class="desafio-name">
+          <h2>Dia 1 - xxxx </h2>
+          <div class="desafio-desc">
+            <p class="grey">Conteúdo aprendido:</p>
+            <p>abc</p>
+            <p>abc</p>
+            <p>abc</p>
+          </div>
+        </article>
+        <footer class="desafio-footer">
+          <a href="" target="_blank"><img src="img/github-black.svg" alt=""></a>
+        </footer>
+      </li>
 
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia20.gif" alt="Dia 20" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3> Dia 20 - Formulário de login transparente </h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          letter-spacing.<br>
-          background: Transparent.<br>
-          <a target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia20"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
 
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia21.gif" alt="Dia 21" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3> Dia 21 - Barra de progresso </h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          @keyframes animation.<br>
-          <a target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia21"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
+      <li>
+        <header class="desafio-imagem">
+          <img src="assets/dia1.gif" alt="Desafio 1">
+        </header>
+        <article class="desafio-name">
+          <h2>Dia 1 - xxxx </h2>
+          <div class="desafio-desc">
+            <p class="grey">Conteúdo aprendido:</p>
+            <p>abc</p>
+            <p>abc</p>
+            <p>abc</p>
+          </div>
+        </article>
+        <footer class="desafio-footer">
+          <a href="" target="_blank"><img src="img/github-black.svg" alt=""></a>
+        </footer>
+      </li>
 
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia22.gif" alt="Dia 22" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3> Dia 22 -  </h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          @keyframes shine.<br>
-          <a target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia22"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
+      <li>
+        <header class="desafio-imagem">
+          <img src="assets/dia1.gif" alt="Desafio 1">
+        </header>
+        <article class="desafio-name">
+          <h2>Dia 1 - xxxx </h2>
+          <div class="desafio-desc">
+            <p class="grey">Conteúdo aprendido:</p>
+            <p>abc</p>
+            <p>abc</p>
+            <p>abc</p>
+          </div>
+        </article>
+        <footer class="desafio-footer">
+          <a href="" target="_blank"><img src="img/github-black.svg" alt=""></a>
+        </footer>
+      </li>
 
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia23.gif" alt="Dia 23" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3> Dia 23 - Dropdown responsivo e Mega Menu </h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          .<br>
-          .<br>
-          <a target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia23"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
+      <li>
+        <header class="desafio-imagem">
+          <img src="assets/dia1.gif" alt="Desafio 1">
+        </header>
+        <article class="desafio-name">
+          <h2>Dia 1 - xxxx </h2>
+          <div class="desafio-desc">
+            <p class="grey">Conteúdo aprendido:</p>
+            <p>abc</p>
+            <p>abc</p>
+            <p>abc</p>
+          </div>
+        </article>
+        <footer class="desafio-footer">
+          <a href="" target="_blank"><img src="img/github-black.svg" alt=""></a>
+        </footer>
+      </li>
 
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia24.gif" alt="Dia 24" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3> Dia 24 -  </h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          mix-blend-mode.<br>
-          CSS animation.<br>
-          <a target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia24"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia25.gif" alt="Dia 25" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3> Dia 25 -  </h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          mix-blend-mode.<br>
-          CSS animation.<br>
-          <a target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia25"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia26.gif" alt="Dia 26" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3> Dia 26 -  </h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          mix-blend-mode.<br>
-          CSS animation.<br>
-          <a target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia26"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia27.gif" alt="Dia 27" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3> Dia 27 -  </h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          mix-blend-mode.<br>
-          CSS animation.<br>
-          <a target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia27"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia28.gif" alt="Dia 28" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3> Dia 28 -  </h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          mix-blend-mode.<br>
-          CSS animation.<br>
-          <a target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia28"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia29.gif" alt="Dia 29" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3> Dia 29 -  </h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          mix-blend-mode.<br>
-          CSS animation.<br>
-          <a target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia29"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card" style="border-radius: 15px; box-shadow: 2px 2px 8px rgb(0 0 0 / 25%)">
-        <img src="./assets/dia30.gif" alt="Dia 30" style="border-radius: 15px;" style="object-fit:contain;" style="max-width: 100%" width="100%" height="200px"   >
-        <div class="w3-container" style="min-height: 280px;">
-          <h3> Dia 30 -  </h3>
-          <p class="w3-opacity">O que eu aprendi:</p>
-          mix-blend-mode.<br>
-          CSS animation.<br>
-          <a target="_blank"  href=" https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia30"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
-
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <a target = "_blank" href = "https://www.instagram.com/leonardokattah/"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
-    <a target="_blank" href="https://www.linkedin.com/in/leonardo-kattah-55059a20/"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
-    <a target="_blank"  href="https://github.com/leokattah"> <i class="fab fa-github w3-hover-opacity"></i> </a>
-
-    
-  </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+      <li>
+        <header class="desafio-imagem">
+          <img src="assets/dia1.gif" alt="Desafio 1">
+        </header>
+        <article class="desafio-name">
+          <h2>Dia 1 - xxxx </h2>
+          <div class="desafio-desc">
+            <p class="grey">Conteúdo aprendido:</p>
+            <p>abc</p>
+            <p>abc</p>
+            <p>abc</p>
+          </div>
+        </article>
+        <footer class="desafio-footer">
+          <a href="" target="_blank"><img src="img/github-black.svg" alt=""></a>
+        </footer>
+      </li>
+    </ul>
+  </article>
+</section>
+<footer class="footer">
+  <h1>Leokattah</h1>
+  <p>Designed by Leonaddo Kattah</p>
+  <section class="whatsapp">
+    <a href="tel:5531997784882" target="_blank"> <img src="./img/whatsapp.svg">
+    <a href="tel:5531997784882">+55 31 99778-4882</a>
+  </section>
 </footer>
- 
 </body>
-
-<script type = "text/javascript" src = "./index.js"></script>
-<script type = "text/css" src = "./style.css"></script>
-<script src="https://kit.fontawesome.com/ad762e0626.js" crossorigin="anonymous"></script>
 </html>
+
