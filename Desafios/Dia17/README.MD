@@ -3,7 +3,7 @@
  Dia 17 - Cartão com slider animado <a name="id17"></a>
 </h1>
 
-![Uploading dia17.gif…]()
+![dia17](https://user-images.githubusercontent.com/64365302/111873223-119f6a00-896e-11eb-96a7-8f4405d2418e.gif)
 
 
  ##### O que eu aprendi
