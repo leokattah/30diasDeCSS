@@ -2,8 +2,7 @@
   Desafio Dia 02 - Loader animado <a name="id02"></a>
 </h1>
 
-
-![](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia2.gif)
+![image](https://lh3.googleusercontent.com/pw/ACtC-3cWMRk9BmZ0sKxHbMeGMsVe92ksCgwciLS2Svs3hgxxwFfwWvJ9I2t-YdhZssnBwEdmZfvhPm_AyFjCsKBGVWmpIRx0do6oLz3fs92uWxUKEPS3WCdwFdjdtfSUTs1zQcdFgKflCt5BK1D8lhR8CTD_=w1605-h903-no?authuser=0)
 
 ##### O que eu aprendi
 
