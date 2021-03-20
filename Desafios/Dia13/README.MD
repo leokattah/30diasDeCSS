@@ -3,7 +3,7 @@
  Dia 13 - Cards com borda gradiente <a name="id13"></a>
 </h1>
 
- ![](https://lh3.googleusercontent.com/pw/ACtC-3fbdVUDcWqjZTDM3w2icGYCnSwEbDdHwtxTGT5pMbNT-KJLMKp_bShZNDztOsD2hGKdPvT_n1WK6IHmhqpFdOCfRKoju01kKU3ZDeDCV7ipYx1NRBd5PGj2XxiYSRRp8kfXu6SYK3OhtXseDMCdpiWo=w1605-h903-no?authuser=0)
+![dia13](https://user-images.githubusercontent.com/64365302/111871567-a358a880-8969-11eb-8ffe-57ff404a09bb.gif)
 
  ##### O que eu aprendi
 
