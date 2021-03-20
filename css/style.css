@@ -14,14 +14,10 @@ body{
 
 /* barra menu hamburguer*/
 .navbar{
-	color: #000;
-	background-color: #fff;
+	background: #ffffff;
+	font-weight: bold;
+	height: 80px;
 	width: 100%;
-	margin: 0  auto; /*para alinhar ao centro*/
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
 }
 .logo img{
 	width: 70px;
@@ -29,13 +25,13 @@ body{
 
 }
 .navbar ul{
-	display: flex; 
-	flex-wrap: wrap;
+	float: right;
+	margin-right: 20px;
 }
 .navbar ul li{
-	font-size: 1,25em;
-	display: block;
-	padding: 10px;
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
 }
 .navbar ul li a{
 	color: white;
@@ -51,11 +47,12 @@ body{
 }
 .items li a:hover{
 	background: #a32323;
+	transition: .5s;
 }
 
 .checkbtn{
 	font-size: 30px;
-	color: white;
+	color: rgb(0, 0, 0);
 	float: right;
 	line-height: 80px;
 	margin-right: 40px;
@@ -65,9 +62,11 @@ body{
 #check{
 	display: none;
 	}
-@media (max-width: 952px){
-
-	}
+	@media (max-width: 952px){
+		.logo{
+			font-size: 30px;
+			padding-left: 50px;
+		}
 	.navbar ul li a{
 	  font-size: 1em;	
 	}
@@ -86,7 +85,6 @@ body{
 	  left: -100%;
 	  text-align: center;
 		transition: all .5s;
-		flex: 1 1 260px;
 	} 
 	.navbar ul li{
 	  display: block;
@@ -98,11 +96,12 @@ body{
 	}
 	.items a:hover, .items a.active{
 	  background: none;
-	  color: #0082e6;
+	  color: #000000;
 	}
 	#check:checked ~ ul{
 	  left: 0;
 	}
+}
 }
 /*----------------------------*/
 
