@@ -3,7 +3,7 @@
  Dia 16 - Efeito de mudança de cor <a name="id16"></a>
 </h1>
 
- ![](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia16.gif)
+ ![](https://lh3.googleusercontent.com/pw/ACtC-3dVHExhtxNT9AS_6c1hZNX9upM3VF1KeLfy4Lf7hQpO2DbU7CUa1ktBxC0-psBntxACB1j19ISQpaY37ChatmOq6jJoJfrgvHEmkg1orV3E2lCSFBTIhFm_a2ygaME1TzGVwdzhlXCddwecSZdclP9A=w1024-h682-no?authuser=0)
 
  ##### O que eu aprendi
 

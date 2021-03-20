@@ -1,9 +1,9 @@
 
 <h1 align= "center">
- Dia 19 - Website com Efeito Paralaxe <a name="id18"></a>
+ Dia 19 - Website com Efeito Parallax <a name="id18"></a>
 </h1>
 
- ![](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia19.gif)
+ ![](https://lh3.googleusercontent.com/pw/ACtC-3fmJ5b_ikMCJIDCmrCzjm9HMifCcFI3ZsyuVLuwUNUbaR7diKfIlK_uBU2ETnsIL_yLEd1P3Ej-2pgu-9Opckj8LAe7SOba1lKNfihwfVzB074uRufTF9gpDms5qGbdSU30kPvXQDQalaBcS3F5MHX9=w1606-h903-no?authuser=0)
 
  ##### O que eu aprendi
 * *[background-attachment](https://www.w3schools.com/cssref/pr_background-attachment.asp)*

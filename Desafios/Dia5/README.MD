@@ -3,7 +3,7 @@
  Dia 05 - Efeito pulsar <a name="id05"></a>
 </h1>
 
- ![](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia5.gif)
+ ![](https://lh3.googleusercontent.com/pw/ACtC-3fuU6QXR6kaIrjOn_uyBnHIR1hv9yWy6L5WLb3BLKvs0dbmPO1P-ZOY6Mzz6FbeMsWmIFIy05Ny5kPc4W9b4eQa8XWrMaa_z3I3uTi-yTDA5UyvudJAqyw4FU2ELE4KX3R6t7kz1C6EWEty10E0ljRe=w1605-h903-no?authuser=0)
 
  ##### O que eu aprendi
 

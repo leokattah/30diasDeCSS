@@ -3,7 +3,7 @@
  Dia 13 - Cards com borda gradiente <a name="id13"></a>
 </h1>
 
- ![](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia13.gif)
+ ![](https://lh3.googleusercontent.com/pw/ACtC-3fbdVUDcWqjZTDM3w2icGYCnSwEbDdHwtxTGT5pMbNT-KJLMKp_bShZNDztOsD2hGKdPvT_n1WK6IHmhqpFdOCfRKoju01kKU3ZDeDCV7ipYx1NRBd5PGj2XxiYSRRp8kfXu6SYK3OhtXseDMCdpiWo=w1605-h903-no?authuser=0)
 
  ##### O que eu aprendi
 

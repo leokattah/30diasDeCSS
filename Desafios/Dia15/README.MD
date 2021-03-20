@@ -3,7 +3,7 @@
  Dia 15 - Efeito de botão brilhante <a name="id15"></a>
 </h1>
 
- ![](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia15.gif)
+ ![](https://lh3.googleusercontent.com/pw/ACtC-3f23WMwkRzvUJRsjOR3oU5Uuj98Ba6EWgOWQSpekh4kmqKHfd6OwjGqHnCxaR7D5p396cD2OLGoaNwi4aimPrT4WLkY3c1oWUs80dUqqCHhrXjIMs8_5wMa6BSQ_o9SamJoMeLnb8mIK-q4Gh-eZcSd=w1605-h903-no?authuser=0)
 
  ##### O que eu aprendi
 

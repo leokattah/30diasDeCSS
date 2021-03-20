@@ -3,7 +3,7 @@
  Dia 06 - Efeito Lighting Text <a name="id06"></a>
 </h1>
 
- ![](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia6.gif)
+ ![](https://lh3.googleusercontent.com/pw/ACtC-3ccl1nTBjO4jAgR9N6BwW86XL9mfGdsziO4SNj8QbdCaycFNH3suUih2fHZ-Ba_Beh7k5G5-SEnBw-sxJXpyn8dB7dd-zBcabfxAtdMIlqbcYNXesF0autJZCuzFmI-yEUvjFn1t6mtmKxe6EoEiqBG=w1605-h903-no?authuser=0)
 
  ##### O que eu aprendi
 
