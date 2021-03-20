@@ -20,7 +20,7 @@ Gostou da ideia?
 * *[Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)*
 * *[Creative Creations](https://www.youtube.com/channel/UCOKmVksbzoKJKmtu7rlEM1A)*
 * *[DarkCode](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)*
-* *[CSS-Tricks](https://css-tricks.com/)
+* *[CSS-Tricks](https://css-tricks.com/)*
 <br>
 
 * [Dia 01 - Ícone de mídia social em camadas](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia1)
