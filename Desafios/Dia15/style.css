@@ -54,7 +54,7 @@ left: 40px;
   height: 4px;
   background:linear-gradient(0deg, #6b6b6b, #000);
   border-radius: 50%;
-  padding: 0px 10px;
+  padding: 0px;
   transition: .5s;
 }
 

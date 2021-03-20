@@ -26,11 +26,11 @@ body{
 .logo img{
 	width: 70px;
 	height: 70px;
+
 }
 .navbar ul{
-	display: flex;
+	display: flex; 
 	flex-wrap: wrap;
-
 }
 .navbar ul li{
 	font-size: 1,25em;
@@ -76,6 +76,7 @@ body{
 	.checkbtn{
 	  display: block;
 	}
+	
 	.items{
 	  position: fixed;
 	  width: 100%;
@@ -84,8 +85,9 @@ body{
 	  top: 80px;
 	  left: -100%;
 	  text-align: center;
-	  transition: all .5s;
-	}
+		transition: all .5s;
+		flex: 1 1 260px;
+	} 
 	.navbar ul li{
 	  display: block;
 	  margin: 50px 0;
