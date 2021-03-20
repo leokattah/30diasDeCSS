@@ -1,3 +1,4 @@
+![dia3](https://user-images.githubusercontent.com/64365302/111871388-87a0d280-8968-11eb-98a8-b8ca0265ce05.gif)
 
 <h1 align= "center">
  Dia 03 - Mudança de cor de texto quando entra em outra div <a name="id03"></a>
