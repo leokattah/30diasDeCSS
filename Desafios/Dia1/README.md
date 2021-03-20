@@ -2,7 +2,7 @@
   Desafio Dia 01 - Ícone de mídia social em camadas <a name="id01"></a>
 </h1>
 
-![](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia1.gif)
+![](https://lh3.googleusercontent.com/pw/ACtC-3da6NT8s5xiPXkrinX2knr6Cx8SnwCar_6ztxSejJCYZTuO96m9M_O_EVfiGEe8e6z5_PG3lWPxOQD_KuWo17mwbF3UG1jUHOVCfo64kNbPYTLRYSfFlArrL1oGmdmfvmt1hjxlidl1LXGig2GsU8DK=w1605-h903-no?authuser=0)
 
 ##### O que eu aprendi
 
