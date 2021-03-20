@@ -23,7 +23,7 @@ Gostou da ideia?
 * *[CSS-Tricks](https://css-tricks.com/)
 <br>
 
-* [Dia 01 - Ícone de mídia social em camadas](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia1.gif)
+* [Dia 01 - Ícone de mídia social em camadas](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia1)
 * [Dia 02 - Loader animado](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia2.gif)
 * [Dia 03 - Mudança de cor de texto em outra div](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia3.gif)
 * [Dia 04 - Botão com efeito](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia4.gif)
