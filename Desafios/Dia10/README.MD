@@ -3,7 +3,7 @@
  Dia 10 - Efeito de legenda em imagens <a name="id10"></a>
 </h1>
 
- ![image](https://lh3.googleusercontent.com/pw/ACtC-3ec6RDjx_MMBt5dEA3V23VWCgA-helzLinnIrZh9tW3ct9HlK_qihILsZVaC80ahbwWVazNud7Z_EGOIT0Fk65Y3Xmp05ifp12HWyK_u4QTe5vOGeLScYFhxFhoOSqSyA7lxw87qs8Z6Rieaq90gQOv=w1605-h903-no?authuser=0)
+![dia10](https://user-images.githubusercontent.com/64365302/111871980-a5236b80-896b-11eb-8973-6d753bbe07f6.gif)
 
  ##### O que eu aprendi
 
