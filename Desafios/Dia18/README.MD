@@ -3,7 +3,7 @@
  Dia 18 - Texto com efeito gradiente <a name="id18"></a>
 </h1>
 
- ![](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia18.gif)
+ ![](https://lh3.googleusercontent.com/pw/ACtC-3dPwOlYHRow9pI8AQ5aCT6ndSL3HzC7aZ8hpwac4SFrsIQgkwzd96ame8EYjAtxewoj2dlZicikajxFgC55Q5wg4zDAwFu8dFWNCex2PTGPja3YRfR26w4QIyzMjjHJmyoPc_qbYQDfu-I12L-9yZTW=w1605-h903-no?authuser=0)
 
  ##### O que eu aprendi
 
