@@ -2,7 +2,7 @@
   Desafio Dia 01 - Ícone de mídia social em camadas <a name="id01"></a>
 </h1>
 
-[image](https://photos.app.goo.gl/f2pyNadM6FncdZK47)
+![image](https://photos.app.goo.gl/f2pyNadM6FncdZK47)
 
 <p>
 <img src="https://photos.app.goo.gl/f2pyNadM6FncdZK47">
