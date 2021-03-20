@@ -25,7 +25,7 @@ Gostou da ideia?
 
 * [Dia 01 - Ícone de mídia social em camadas](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia1.gif)
 * [Dia 02 - Loader animado](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia2.gif)
-* [Dia 03 - Mudança de cor de texto quando entra em outra div](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia3.gif)
+* [Dia 03 - Mudança de cor de texto em outra div](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia3.gif)
 * [Dia 04 - Botão com efeito](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia4.gif)
 * [Dia 05 - Efeito pulsar](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia5.gif)
 * [Dia 06 - Efeito lightning text](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia6.gif)
@@ -41,7 +41,7 @@ Gostou da ideia?
 * [Dia 16 - Efeito de mudança de cor ](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia16.gif)
 * [Dia 17 - Cartão com slider animado](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia17.gif)
 * [Dia 18 - Texto com efeito gradiente](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia18.gif)
-* [Dia 19 - Website com Efeito Paralaxe](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia19.gif)
+* [Dia 19 - Efeito Paralaxe](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia19.gif)
 * [ Dia 20 - Formulário de login transparente ](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia20.gif)
 * [Dia 21 - Esferas quicando](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia21.gif)
 * [Dia 22 - Icones com efeito](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia22.gif)
