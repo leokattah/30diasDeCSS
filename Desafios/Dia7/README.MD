@@ -3,7 +3,7 @@
  Dia 07 - Loaders variados <a name="id07"></a>
 </h1>
 
- ![](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia7.gif)
+ ![image](https://lh3.googleusercontent.com/pw/ACtC-3cLuhlMrrvUTNVHI11vA09hJKRbIKaxZXdrLse6aSbDvGInxxMJNidpKbCYxGvN81QWBog77iKQoPwxHSOKBForYqz4I2bzkLmwwU6Ko_3bQjw9I239sGTb-8A8Xh_heWdnSCgtffH5v4ne8ANUnY-N=w1605-h903-no?authuser=0)
 
  ##### O que eu aprendi
 
