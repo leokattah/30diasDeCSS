@@ -3,7 +3,7 @@
  Dia 03 - Mudança de cor de texto quando entra em outra div <a name="id03"></a>
 </h1>
 
-![image](https://lh3.googleusercontent.com/pw/ACtC-3dV3QYArsOQBfYoTl5k9FAoITCK3rLxp01AKadWbZV2mYl0tazKU2PqxZSAlARxQzGkPQr9aBSQi3vl_R72J4__ppi_bXdqTTEQWqEq47tS_dshblT7212pvdFSfuJ6bzNaV5WwyMbcPYT3DhWr0xMJ=w1440-h810-no?authuser=0) 
+![image](https://photos.app.goo.gl/y6qxewx44i8yCT5F6) 
 
 ##### O que eu aprendi
 
