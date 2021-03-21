@@ -46,7 +46,7 @@ Gostou da ideia?
 * [Dia 21 - Barra de progresso](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia21)
 * [Dia 22 - Efeito de brilho](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia22)
 * [Dia 23 - Menu Responsivo com design hamburger](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia23)
-* [Dia 24 - Footer responsivo](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia24)
+* [Dia 24 - Footer totalmente responsivo](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia24)
 * [Dia 25 - Classificação com estrelas](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia25)
 * [Dia 26 - ](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia26)
 * [Dia 27 - ](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia27)
