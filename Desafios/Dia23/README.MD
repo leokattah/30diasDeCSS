@@ -7,7 +7,7 @@
 
 
  ##### O que eu aprendi
-* *[Shine Effect On Image](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)*
+* *[Responsividade com @media](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries)*
 
 
 
