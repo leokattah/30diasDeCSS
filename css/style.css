@@ -227,6 +227,7 @@ body{
 }
 .grey {
 	color: #242424;
+	margin-top: 10px;
 }
 .desafio-imagem img{
 	max-width: 100%;
@@ -236,6 +237,7 @@ body{
 .desafio-name h2{
 	max-width: 100%;
 	height:  80px;
+	font-size: 1.25em;
 }
 
 .desafio-desc {
