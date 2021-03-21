@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100vh;
+    font-family: 'Raleway', sans-serif;
+    background-color:#151515;
+    overflow: hidden;
+}
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+.testimonial {
+    width:350px;
+    display:inline-block;
+    margin: 0 20px;
+    transition: .5s;
+}
+.testimonial:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+}
+.testimonial .card {
+    position:relative;
+    overflow:hidden;
+    width:350px;
+    margin:0 auto;
+    background:#2c2c2c;
+    padding:20px;
+    box-sizing:border-box;
+    text-align:center;
+    box-shadow:0 10px 40px rgba(0,0,0,.5);
+}
+.testimonial .card .layer {
+    z-index:1;
+    position:absolute;
+    top: 0;
+    left: 99.5%;
+    height:100%;
+    width:100%;
+    background:linear-gradient(to bottom right , #08686c, #59ed75);
+    transition:0.5s;
+}
+.testimonial .card:hover  .layer{
+    left: 0;
+}
+.testimonial .card .content {
+    z-index:2; 
+    position:relative;
+}
+.testimonial .card .content p {
+    font-size:14px;
+    line-height:24px;
+    color:#fff;
+}
+.testimonial .card .content .image {
+    width:100px;
+    height:100px;
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
+    border: 3px solid white;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    transition: .5s;
+}
+.testimonial:hover .card .content .details h2{
+    color: white;
+}
+.testimonial .card .content .details h2 {
+    font-size:30px;
+    color:black;
+    transition:0.5s;
+}
+.testimonial .card .content .details h2 span {
+    font-size:18px;
+    color:#173ad0;
+    transition:0.5s;
+}
+.testimonial .card:hover .content .details h2 span {
+    color:white;
+    position:relative;
+}
