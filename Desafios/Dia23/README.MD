@@ -1,9 +1,10 @@
 
 <h1 align= "center">
-  Dia 23 - Dropdown responsivo e Mega Menu <a name="id23"></a>
+  Dia 23 - Menu Responsivo com design hamburger="id23"></a>
 </h1>
 
- ![](https://github.com/leokattah/30_dias_De_CSS/blob/main/assets/dia23.gif)
+![dia23](https://user-images.githubusercontent.com/64365302/111891538-a045d280-89d2-11eb-9650-706cd354c98a.gif)
+
 
  ##### O que eu aprendi
 * *[Shine Effect On Image](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)*
