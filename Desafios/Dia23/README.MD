@@ -1,6 +1,6 @@
 
 <h1 align= "center">
- <a>Dia 23 - Menu Responsivo com design hamburger></a>
+ <a>Dia 23 - Menu Responsivo com design hamburger</a>
 </h1>
 
 ![dia23](https://user-images.githubusercontent.com/64365302/111891538-a045d280-89d2-11eb-9650-706cd354c98a.gif)
