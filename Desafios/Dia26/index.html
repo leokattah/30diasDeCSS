@@ -1,25 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Dia 24 - Footer responsivo</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="center">
-      <div class="stars">
-        <input type="radio" id="five" name="rate" value="5">
-        <label for="five"></label>
-        <input type="radio" id="four" name="rate" value="4">
-        <label for="four"></label>
-        <input type="radio" id="three" name="rate" value="3">
-        <label for="three"></label>
-        <input type="radio" id="two" name="rate" value="2">
-        <label for="two"></label>
-        <input type="radio" id="one" name="rate" value="1">
-        <label for="one"></label>
-        <span class="result"></span>
-      </div>
-</div>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" 
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+        crossorigin="anonymous"
+    />
+  <title>Dia 26</title>
+</head>
+<body>
+  <div class="radiogroup">
+    <div class="wrapper">
+      <input class="state" type="radio" name="app" id="a" value="a">
+      <label class="label" for="a">
+        <div class="indicator"></div>
+        <span class="text">a) close</span>
+      </label>
+    </div>
+    <div class="wrapper">
+      <input class="state" type="radio" name="app" id="b" value="b">
+      <label class="label" for="b">
+        <div class="indicator"></div>
+        <span class="text">b) remove</span>
+      </label>
+    </div>
+    <div class="wrapper">
+      <input class="state" type="radio" name="app" id="c" value="c">
+      <label class="label" for="c">
+        <div class="indicator"></div>
+        <span class="text">c) delete</span>
+      </label>
+    </div>
+    <div class="wrapper">
+      <input class="state" type="radio" name="app" id="d" value="d">
+      <label class="label" for="d">
+        <div class="indicator"></div>
+        <span class="text">d) all of the above</span>
+      </label>
+    </div>
+  </div>
 </body>
 </html>

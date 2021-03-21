@@ -1,9 +1,9 @@
 
 <h1 align= "center">
- <a>Dia 24 - </a>
+ <a>Dia 26 - Efeito neumorfismo </a>
 </h1>
 
-![dia24]()
+![dia26]()
 
 
  ##### O que eu aprendi

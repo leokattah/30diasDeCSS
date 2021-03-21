@@ -48,7 +48,7 @@ Gostou da ideia?
 * [Dia 23 - Menu Responsivo com design hamburger](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia23)
 * [Dia 24 - Footer totalmente responsivo](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia24)
 * [Dia 25 - Cartão com efeito Hover](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia25)
-* [Dia 26 - ](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia26)
+* [Dia 26 - Efeito neumorfismo ](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia26)
 * [Dia 27 - ](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia27)
 * [Dia 28 - ](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia28)
 * [Dia 29 - ](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia29)
