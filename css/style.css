@@ -1,6 +1,5 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
 *{
 	padding: 0;
@@ -12,134 +11,63 @@
 body{
 	font-family: nunito;
 }
-nav{
-  display: flex;
-  height: 80px;
-  width: 100%;
-  background: #1b1b1b;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 50px 0 50px;
-  flex-wrap: wrap;
+
+/* barra menu hamburguer*/
+.navbar{
+	background: #1d1b1b;
+	font-weight: bold;
+	height: 80px;
+	width: 100%;
 }
-.logo{
-	display: flex;
+.logo img{
 	width: 80px;
 	height: 80px;
-	margin-left: 0;
-
 }
-nav ul{
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
+.navbar ul{
+	float: right;
+	margin-right: 20px;
 }
-nav ul li{
-  margin: 0 5px;
+.navbar ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
 }
-nav ul li a{
-  color: #f2f2f2;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 8px 15px;
-  border-radius: 5px;
-  letter-spacing: 1px;
-  transition: all 0.3s ease;
+.navbar ul li a{
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
 }
-nav ul li a.active,
-nav ul li a:hover{
-  color: #111;
-  background: #fff;
+.items li .active, .items li a:hover{
+	background: #581417;
+	transition: .5s;
 }
-nav .menu-btn i{
-  color: #fff;
-  font-size: 22px;
-  cursor: pointer;
-  display: none;
+.checkbtn{
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
 }
-input[type="checkbox"]{
-  display: none;
-}
-@media (max-width: 1000px){
-  nav{
-    padding: 0 40px 0  40px;
-  }
-}
-@media (max-width: 920px) {
-  nav .menu-btn i{
-    display: block;
-  }
-  #click:checked ~ .menu-btn i:before{
-    content: "\f00d";
-  }
-  nav ul{
-    position: fixed;
-    top: 80px;
-    left: -100%;
-    background: #111;
-    height: 100vh;
-    width: 100%;
-    text-align: center;
-    display: block;
-    transition: all 0.3s ease;
-  }
-  #click:checked ~ ul{
-    left: 0;
-  }
-  nav ul li{
-    width: 100%;
-    margin: 40px 0;
-  }
-  nav ul li a{
-    width: 100%;
-    margin-left: -100%;
-    display: block;
-    font-size: 20px;
-    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  #click:checked ~ ul li a{
-    margin-left: 0px;
-  }
-  nav ul li a.active,
-  nav ul li a:hover{
-    background: none;
-    color: cyan;
-  }
-}
-.content{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  z-index: -1;
-  width: 100%;
-  padding: 0 30px;
-  color: #1b1b1b;
-}
-.content div{
-  font-size: 40px;
-  font-weight: 700;
-}
-
-
-
-
-@media (max-width: 952px){
-		.logo{
-			font-size: 30px;
-			padding-left: 50px;
-		}
-	.navbar ul li a{
-	  font-size: 1em;	
+#check{
+	display: none;
 	}
-
+@media (max-width: 952px){
+	.logo{
+	  font-size: 30px;
+	  padding-left: 50px;
+	}
+	.navbar ul li a{
+	  font-size: 16px;	
+	}
+}
 @media (max-width: 858px){
 	.checkbtn{
 	  display: block;
 	}
-	
 	.items{
 	  position: fixed;
 	  width: 100%;
@@ -148,8 +76,8 @@ input[type="checkbox"]{
 	  top: 80px;
 	  left: -100%;
 	  text-align: center;
-		transition: all .5s;
-	} 
+	  transition: all .5s;
+	}
 	.navbar ul li{
 	  display: block;
 	  margin: 50px 0;
@@ -160,12 +88,11 @@ input[type="checkbox"]{
 	}
 	.items a:hover, .items a.active{
 	  background: none;
-	  color: #000000;
+	  color: #0082e6;
 	}
 	#check:checked ~ ul{
 	  left: 0;
 	}
-}
 }
 /*----------------------------*/
 
@@ -189,7 +116,7 @@ input[type="checkbox"]{
 }
   
 .block h1{
-	font-size: 3em;
+	font-size: 4em;
 	color: white;
 	text-shadow: 0 0 10px black;
 } 
@@ -199,23 +126,17 @@ input[type="checkbox"]{
 	text-shadow: 0 0 10px black;
 }
 .social {
-	display: inline-flex;
-	bottom: 0px;
-	position: absolute;
-	box-sizing: border-box;
-
+	display: flex;
+	margin-top: 10px;
 }
 
-.social li img{
-	padding: 10px;
-	display: inline-flex;
-	background-color: transparent;
+.social li + li img{
+	margin-left: 20px;
 }
 
 .social li a {
 	width: 32px;
 	height: 32px;
-	border: black;
 }
 
 /* Sessão study*/
@@ -243,13 +164,6 @@ input[type="checkbox"]{
 }
 
 /* sessão items */
-
-.quality {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-
 .quality-items {
 	display: flex;
 	justify-content: center;
@@ -308,7 +222,7 @@ input[type="checkbox"]{
 	background: #e2e2e2;
 	height: 400px;
 	border-radius: 10px;
-	padding: 7px;
+	padding: 12px;
 	box-shadow: 0 0 14px #00000050;
 }
 .grey {
@@ -322,7 +236,6 @@ input[type="checkbox"]{
 .desafio-name h2{
 	max-width: 100%;
 	height:  80px;
-	font-size: 1.25em;
 }
 
 .desafio-desc {
@@ -338,23 +251,35 @@ input[type="checkbox"]{
 }
 
 .footer p{
-font-style: italic;
+	font-style: italic;
+	}
+	
+	.whatsapp a{
+	color: white;
+	font-size: .8em;
+	padding: 10px;
+	}
+	
+	.whatsapp {
+		align-items: center;
+		display:inline-flex
+	}
+	
+	.whatsapp img{
+		width:16px;
+		height:16px;
+		padding: 0px;
+	}
 
-}
-
-.whatsapp a{
-color: white;
-font-size: .8em;
-padding: 10px;
-}
-
-.whatsapp {
-	align-items: center;
-	display:inline-flex
-}
-
-.whatsapp img{
-	width:16px;
-	height:16px;
-	padding: 0px;
-}
+	.toTheTop{
+		color: rgb(0, 0, 0);
+		background: #e2e2e2;
+		border-radius: 10px;
+		width: 100px;
+		height: 40px;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		display: flex;
+		margin-bottom: 20px;
+	}
