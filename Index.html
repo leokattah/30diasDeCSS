@@ -4,26 +4,33 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/style.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 </head>
 
 <body>
-<nav class="navbar">
-  <input type="checkbox" id="check">
-  <label for="check" class="checkbtn">
-    <i class="fas fa-bars"></i>
-  </label>
-  <label class="logo">
-    <img src="img/leokattah.png" alt=" leokattah">
-  </label>
-
-  <ul class="items">
-   <li> <a href="#about" class="active">SOBRE</a></li>
-   <li> <a href="#chalenges" class="active"></i> DESAFIOS</a></li>
-  </ul>
+  <nav>
+    <div class="logo"> 
+      <img src="./img/leokattah.png">
+    </div>
+<input type="checkbox" id="click">
+    <label for="click" class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+<li><a class="active" href="#" id="home">Home</a></li>
+<li><a href="#sobre">Sobre</a></li>
+<li><a href="#desafios" >Desafios</a></li>
+</ul>
 </nav>
+  <div class="content">
+    <div>
+Responsive Navigation Menu Bar Design</div>
+<div>
+using only HTML & CSS</div>
+</div>
 <section class="introduction">
   <div class="center">
     <div class="block">
@@ -37,8 +44,8 @@
     <li><a target = "a_blank" href="https://github.com/leokattah"><img src="img/github.svg" alt=""></a></li>
   </ul>
 </section>
-<section class="study"  id="about">
-  <div class="study-info">
+<section class="study"  >
+  <div class="study-info" id="sobre">
     <h1>Estudo e prática</h1>
     <p>30 dias de CSS3, é um desafio que visa ajudar o desenvolvedor a melhorar as habilidades
     de codificação fazendo mini projetos diários utilizando HTML5 e CSS3</p>
@@ -68,8 +75,8 @@
 			</li>
 		</ul>
 </section>
-<section class="desafios" id="chalenges">
-  <header class="title">
+<section class="desafios" >
+  <header class="title" id="desafios">
     <h1>Desafios</h1>
     <p>Conteúdo aprendido com os 30 dias de CSS. Todos desafios estarão disponíveis no meu repositório.</p>
   </header>
@@ -586,6 +593,7 @@
   </article>
 </section>
 <footer class="footer">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <h1>Leokattah</h1>
   <p>Designed by Leonaddo Kattah</p>
   <section class="whatsapp">
