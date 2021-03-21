@@ -2,24 +2,79 @@
 <html lang="pt-br" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Dia 24 - Footer responsivo</title>
+    <title>Footer totalmente responsivo </title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <div class="center">
-      <div class="stars">
-        <input type="radio" id="five" name="rate" value="5">
-        <label for="five"></label>
-        <input type="radio" id="four" name="rate" value="4">
-        <label for="four"></label>
-        <input type="radio" id="three" name="rate" value="3">
-        <label for="three"></label>
-        <input type="radio" id="two" name="rate" value="2">
-        <label for="two"></label>
-        <input type="radio" id="one" name="rate" value="1">
-        <label for="one"></label>
-        <span class="result"></span>
+    <div class="content1">
+      <div class="text">Footer totalmente responsivo</div>
+      <div class="p">usando apenas HTML & CSS</div>
+    </div>
+    <footer>
+      <div class="main-content">
+        <div class="left box">
+          <h2>Sobre</h2>
+          <div class="content">
+            <p> Desenvolvedor FullStack que está iniciando a jornada nesta área maravilhosa. Estou aprendendo a criar projetos com React, Mongodb, Heroku... </p>
+            <p>Linguagens: Javascript</p>
+            <div class="social">
+              <a target="a_blank" href="https://www.linkedin.com/in/leonardo-kattah-55059a20/"><span class="fab fa-linkedin"></span></a>
+              <a target="a_blank" href="https://www.instagram.com/leonardokattah/"><span class="fab fa-instagram"></span></a>
+              <a target="a_blank" href="https://github.com/leokattah"><span class="fab fa-github"></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="center box">
+          <h2>Endereço</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">Rua José Moreira Barbosa, 260 - BH/MG</span>
+            </div>
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <a href="tel:5531997784882" class="text">+55 31 99778-4882</a>
+
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">leokattah@gmail.com</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="right box">
+          <h2>Fale conosco</h2>
+          <div class="content">
+            <form action="#">
+              <div class="email">
+                <div class="text">Email *</div>
+                <input type="email" required>
+              </div>
+              <div class="msg">
+                <div class="text">Mensagem *</div>
+                <input type="text" required>
+                <!-- <changeit rows="2" cols="25" required></changeit> -->
+              </div>
+              <div class="btn">
+                <button type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
-</div>
-</body>
+      <div class="bottom">
+        <center>
+          <span class="credit">Created By <a href="https://www.codingnepalweb.com">CodingNepal</a> | </span>
+
+          
+          <span class="far fa-copyright"></span><span> 2020 All rights reserved</span>
+          <span class="credit">and adapted by <a href="https://www.codingnepalweb.com">Leonardo Kattah</a> | </span>
+        </center>
+      </div>
+    </footer>
+  </body>
 </html>

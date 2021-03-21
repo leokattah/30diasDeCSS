@@ -1,9 +1,9 @@
 
 <h1 align= "center">
- <a>Dia 24 - </a>
+ <a>Dia 24 - Footer totalmente responsivo </a>
 </h1>
 
-![dia24]()
+![dia25]()
 
 
  ##### O que eu aprendi

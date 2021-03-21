@@ -3,7 +3,7 @@
  <a>Dia 24 - </a>
 </h1>
 
-![dia25]()
+![dia24]()
 
 
  ##### O que eu aprendi
