@@ -228,6 +228,7 @@ body{
 .grey {
 	color: #242424;
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .desafio-imagem img{
 	max-width: 100%;

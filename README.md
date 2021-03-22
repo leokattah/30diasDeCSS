@@ -42,7 +42,7 @@ Gostou da ideia?
 * [Dia 17 - Cartão com slider animado](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia17)
 * [Dia 18 - Texto com efeito gradiente](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia18)
 * [Dia 19 - Efeito Parallax](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia19)
-* [ Dia 20 - Formulário de login transparente ](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia20)
+* [Dia 20 - Formulário de login transparente ](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia20)
 * [Dia 21 - Barra de progresso](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia21)
 * [Dia 22 - Efeito de brilho](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia22)
 * [Dia 23 - Menu Responsivo com design hamburger](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia23)
@@ -50,7 +50,7 @@ Gostou da ideia?
 * [Dia 25 - Cartão com efeito Hover](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia25)
 * [Dia 26 - Efeito neumorfismo ](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia26)
 * [Dia 27 - Login com efeito neumorfismo](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia27)
-* [Dia 28 - ](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia28)
+* [Dia 28 - Slider de imagens](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia28)
 * [Dia 29 - ](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia29)
 * [Dia 30 - ](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia30)
 
