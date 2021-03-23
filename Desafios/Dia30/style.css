@@ -575,11 +575,25 @@ footer {
       margin-right: 0
   }
   #main-text-wrapper>h1 {
-      font-size: 28px;
+      font-size: 26px;
+      box-sizing: border-box;
+      width: 150px;
+      height: 150px;
+      margin-left: 300px;
+      margin-top: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
   }
   #main-text-wrapper>p {
       padding: 16px;
       box-sizing: border-box;
+      margin-left: 250px;
+      width: 150px;
+      height: 150px;
+      display: flex;
+      align-items: right;
+      justify-content: center;
   }
   #steps-section {
       width: 100%;
@@ -611,9 +625,11 @@ footer {
       font-size: 28px;
   }
   #testimonials-wrapper {
-      flex-direction: column;
-
-
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-top: 0;
   }
   .testimonial-item {
       width: 100%;
