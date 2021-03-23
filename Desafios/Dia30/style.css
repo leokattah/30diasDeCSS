@@ -568,8 +568,13 @@ footer {
 }
 
 @media (max-width: 720px) {
+
+  body {
+
+  }
   .menu-item {
       display: none;
+      width: 100%;
   }
   .primary-button {
       margin-right: 0
@@ -581,6 +586,7 @@ footer {
       height: 150px;
       margin-left: 300px;
       margin-top: 150px;
+      margin-right:50px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -589,6 +595,7 @@ footer {
       padding: 16px;
       box-sizing: border-box;
       margin-left: 250px;
+      margin-right:50px;
       width: 150px;
       height: 150px;
       display: flex;
