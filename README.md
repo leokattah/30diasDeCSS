@@ -23,6 +23,9 @@ Gostou da ideia?
 * *[CSS-Tricks](https://css-tricks.com/)*
 <br>
 
+<p> <a=href"https://youtu.be/XcY6W49o4ZY"></P>
+
+
 * [Dia 01 - Ícone de mídia social em camadas](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia1)
 * [Dia 02 - Loader animado](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia2)
 * [Dia 03 - Mudança de cor de texto em outra div](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia3)
