@@ -28,7 +28,8 @@ Este é o vídeo do website responsivo com os desafios realizados. https://www.y
 
 https://youtu.be/XcY6W49o4ZY
 
-[![30 Dias de CSS](https://img.youtu.be.com/vi/XcY6W49o4ZY/maxresdefault.jpg)]("https://www.youtu.be.com/watch?v=XcY6W49o4ZY")
+[![30 Dias de CSS](https://img.youtube.com/vi/XcY6W49o4ZY/maxresdefault.jpg)]("https://www.youtube.com/watch?v=XcY6W49o4ZY")
+![30 Dias de CSS]("https://www.youtube.com/watch?v=XcY6W49o4ZY")
 
 
 * [Dia 01 - Ícone de mídia social em camadas](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia1)
