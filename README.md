@@ -23,7 +23,7 @@ Gostou da ideia?
 * *[CSS-Tricks](https://css-tricks.com/)*
 <br>
 
-Este é o vídeo do website responsivo com os desafios realizados. https://www.youtube.com/watch?v=XcY6W49o4ZY
+Este é o vídeo do website que fiz para colocar os desafios realizados. https://www.youtube.com/watch?v=XcY6W49o4ZY. Destaco que ele está responsivido. 
 
 https://youtu.be/XcY6W49o4ZY
 
