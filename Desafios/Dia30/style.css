@@ -12,13 +12,14 @@ textarea {
 header {
   width: 100%;
   height: 100vh;
-  background-image: url('https://firebasestorage.googleapis.com/v0/b/demoapi-43d03.appspot.com/o/landing-background.png?alt=media&token=f45dcc51-35c4-4c6a-8671-9d49077d57ff');
+  background-image: url('./assets/2.jpg');
   background-position: left;
   background-size: cover;
 }
 
 nav {
-  background-color: white;
+  background-color: #ebf6f8;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
   width: 100%;
   height: 77px;
   display: flex;
@@ -30,7 +31,7 @@ nav {
 }
 
 #logo {
-  width: 40px;
+  width: 130px;
 }
 
 .menu-item {
@@ -167,15 +168,15 @@ nav {
 }
 
 #second-step {
-  background-color: #91ac41;
+  background-color: #A4FEA7;
 }
 
 #third-step {
-  background-color: #e4b476;
+  background-color: #27C950;
 }
 
 #fourth-step {
-  background-color: #f69dad;
+  background-color: #87FA8B;
 }
 
 
@@ -183,7 +184,7 @@ nav {
 
 #store-section {
   width: 100%;
-  background-color: #f7eee2;
+  background-color: #FEE7C2;
   padding-top: 75px;
   padding-bottom: 75px;
   text-align: center;
@@ -229,7 +230,7 @@ nav {
 
 .icon-wrapper {
   display: inline-block;
-  background-color: #e3b375;
+  background-color: #8b8b99;
   border-radius: 50%;
   padding: 40px;
   color: white;
