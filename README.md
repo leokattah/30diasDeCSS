@@ -25,7 +25,7 @@ Gostou da ideia?
 
 Este é o vídeo do website que fiz para colocar os desafios realizados. https://www.youtube.com/watch?v=XcY6W49o4ZY. Destaco que ele está responsivido. 
 
-https://youtu.be/XcY6W49o4ZY
+Se quiser ver o site no seu navegador, acesse: https://leokattah.github.io/30diasDeCSS/ 
 
 [![30 Dias de CSS](https://img.youtube.com/vi/XcY6W49o4ZY/maxresdefault.jpg)]("https://www.youtube.com/watch?v=XcY6W49o4ZY")
 
