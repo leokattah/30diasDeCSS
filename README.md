@@ -23,7 +23,7 @@ Gostou da ideia?
 * *[CSS-Tricks](https://css-tricks.com/)*
 <br>
 
-<p> <a=href"https://youtu.be/XcY6W49o4ZY"></P>
+![30 Dias de CSS]("https://www.youtube.com/watch?v=XcY6W49o4ZY")
 
 
 * [Dia 01 - Ícone de mídia social em camadas](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia1)
