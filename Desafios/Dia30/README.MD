@@ -5,7 +5,7 @@
 
 
  ##### O que eu aprendi
-* *[transform: translate3d](https://www.w3schools.com/cssref/pr_margin-left.asp)*
+* *[CSS @media ](https://www.w3schools.com/css/css3_mediaqueries_ex.asp)*
 
 
 

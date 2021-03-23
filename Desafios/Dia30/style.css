@@ -37,7 +37,7 @@ nav {
 .menu-item {
   color: black;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   margin-right: 24px;
   cursor: pointer;
 }
@@ -79,7 +79,7 @@ nav {
 }
 
 .primary-button {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   color: white;
   background-color: rgb(170, 210, 54);
@@ -192,21 +192,21 @@ nav {
 
 #fresh-food-heading {
   color: #91ac41;
-  font-size: 24px;
+  font-size: 28px;
   font-family: 'Caveat', cursive;
   margin: 0;
   margin-top: 35px;
 }
 
 #store-section>h3 {
-  font-size: 44px;
+  font-size: 54px;
   font-weight: 600;
   margin: 0;
   margin-bottom: 8px;
 }
 
 #store-desc {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   margin: 0;
   color: #8b8b99;
@@ -266,14 +266,14 @@ nav {
 
 #testimonials-heading {
   color: #91ac41;
-  font-size: 24px;
+  font-size: 28px;
   font-family: 'Caveat', cursive;
   margin: 0;
   margin-top: 35px;
 }
 
 #testimonials-section>h3 {
-  font-size: 44px;
+  font-size: 24px;
   font-weight: 600;
   margin: 0;
   margin-bottom: 8px;
@@ -294,7 +294,9 @@ nav {
   max-width: 1140px;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .testimonial-item {
@@ -345,26 +347,31 @@ nav {
 
 #follow-section {
   display: flex;
-  justify-content: stretch;
+  justify-content: center;
 }
 
 #left-section {
-  width: 67%;
-  display: inline-block;
+  max-width: 100%;
+  display: flex;
   margin: 0;
+  object-fit: contain;
 }
 
 #left-section img {
-  width: 100%;
+  max-width: 100%;
+  min-width: 200px;
+  display: flex;
+  margin: 0;
+  object-fit: cover;
 }
 
 #right-section {
-  width: 33.33%;
+  max-width: 100%;
+  display: flex;
   margin: 0;
-  display: inline-block;
+  object-fit: contain;
   background-image: url('https://firebasestorage.googleapis.com/v0/b/demoapi-43d03.appspot.com/o/strawberry-white.png?alt=media&token=abf5f1c9-699d-4778-83ec-ae025bf6b066');
-  background-position: left;
-  background-size: cover;
+
 }
 
 #right-section #text-wrapper {
@@ -386,7 +393,7 @@ nav {
 }
 
 #subscribe-email {
-  width: 100%;
+  width: 300px;
   box-sizing: border-box;
   border: 0;
   border-radius: 4px;
@@ -550,9 +557,7 @@ nav {
   font-size: 16px;
 }
 
-
 /* Footer*/
-
 footer {
   background-color: #232323;
   color: white;
@@ -607,6 +612,8 @@ footer {
   }
   #testimonials-wrapper {
       flex-direction: column;
+
+
   }
   .testimonial-item {
       width: 100%;
