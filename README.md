@@ -51,6 +51,6 @@ Gostou da ideia?
 * [Dia 26 - Efeito neumorfismo ](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia26)
 * [Dia 27 - Login com efeito neumorfismo](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia27)
 * [Dia 28 - Slider de imagens](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia28)
-* [Dia 29 - ](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia29)
+* [Dia 29 - Carrossel de imagens totalmente responsivo](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia29)
 * [Dia 30 - ](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia30)
 
