@@ -23,7 +23,9 @@ Gostou da ideia?
 * *[CSS-Tricks](https://css-tricks.com/)*
 <br>
 
-![30 Dias de CSS]("https://www.youtube.com/watch?v=XcY6W49o4ZY")
+Este é o vídeo do website responsivo com os desafios realizados. https://www.youtube.com/watch?v=XcY6W49o4ZY
+
+[![30 Dias de CSS](https://www.img.youtube.com/watch?v=XcY6W49o4ZY)]("https://www.youtube.com/watch?v=XcY6W49o4ZY")
 
 
 * [Dia 01 - Ícone de mídia social em camadas](https://github.com/leokattah/30_dias_De_CSS/tree/main/Desafios/Dia1)
